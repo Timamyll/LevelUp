@@ -1,0 +1,106 @@
+video {
+    /** Simulationg background-size: cover */
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.video-wrapper {
+    /* Telling our absolute positioned video to 
+  be relative to this element */
+    position: relative;
+
+    /* height: 672px; */
+
+    /* Will not allow the video to overflow the 
+  container */
+    overflow: hidden;
+
+    /* Centering the container's content vertically 
+  and horizontally */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.character__body {
+    position: relative;
+    /* z-index: 1000; */
+}
+
+.cracter__box {
+    display: flex;
+    align-items: center;
+    gap: 176px;
+    /* margin-top: -645px; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.character__img {}
+
+.character__imgs {
+    padding-left: 40px;
+}
+
+.character__item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.character__link {
+    padding: 40px 15px 39px 29px;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.character__link:hover {
+    background: #0360D9;
+}
+
+
+
+.link__imgs {}
+
+.link__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.link__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 1100px) {
+    .cracter__box {
+        flex-direction: column;
+        gap: 100px;
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 572px) {
+    .character__item {
+        grid-template-columns: 1fr;
+    }
+
+    .character__imgs {
+        padding-left: 0;
+    }
+
+}

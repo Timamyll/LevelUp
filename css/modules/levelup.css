@@ -1,0 +1,91 @@
+.levelup__page {
+    padding-top: 25px;
+}
+
+.container {}
+
+.levelup__body {
+    display: flex;
+}
+
+.levelup__left {
+    padding-top: 165px;
+}
+
+.levelup__title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 83px;
+    color: #0360D9;
+    margin-bottom: 25px;
+    max-width: 463px;
+}
+
+.levelup__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #163048;
+    margin-bottom: 40px;
+}
+
+.buttom__header {}
+
+.header__buttoms {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #0360D9;
+}
+
+
+
+@media (max-width: 1200px) {
+    .levelup__title {
+        font-size: 45px;
+        line-height: 60px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .levelup__body {
+        flex-direction: column;
+    }
+
+    .levelup__left {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 25px;
+        order: 1;
+    }
+
+    .levelup__right {
+        display: flex;
+        justify-content: center;
+    }
+
+    .levelup__imgs {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .levelup__title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .levelup__text {
+        font-size: 12px;
+
+    }
+
+    .header__buttoms {
+        font-size: 14px;
+    }
+}

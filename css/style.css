@@ -4,6 +4,10 @@
 @import url(./modules/character.css);
 @import url(./modules/product.css);
 @import url(./modules/slider.css);
+@import url(./modules/accordy.css);
+@import url(./modules/timer.css);
+@import url(./modules/about.css);
+@import url(./modules/footer.css);
 
 
 
@@ -41,7 +45,9 @@ html {
     background-color: #E1EEFF;
     font-family: 'IBM Plex Sans', Courier, monospace;
     font-style: normal;
+    scroll-behavior: smooth;
 }
+
 
 .container {
     max-width: 1440px;

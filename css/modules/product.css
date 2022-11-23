@@ -1,0 +1,247 @@
+.page__product {}
+
+.container {}
+
+.product__body {}
+
+.product__title {}
+
+.product__titles {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #2E2E2E;
+}
+
+.product__titles span {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #0360D9;
+}
+
+.aloy::before {
+    content: '';
+    background-image: url(../../images/product/line.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 371px;
+    top: 99px;
+    width: 132px;
+    height: 200px;
+}
+
+.bacteria::before {
+    content: '';
+    background-image: url(../../images/product/line2.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 375px;
+    /* top: 99px; */
+    width: 116px;
+    height: 200px;
+}
+
+.plants::before {
+    content: '';
+    background-image: url(../../images/product/Line\ 3.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 349px;
+    /* top: 61px; */
+    width: 213px;
+    height: 200px;
+    bottom: 210px;
+}
+
+.lorem::before {
+    content: '';
+    background-image: url(../../images/product/line4.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    /* left: 349px; */
+    top: 80px;
+    right: 303px;
+    width: 217px;
+    height: 108px;
+    /* bottom: 210px; */
+}
+
+.wax::before {
+    content: '';
+    background-image: url(../../images/product/Line\ 5.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    /* left: 349px; */
+    /* top: 80px; */
+    right: 274px;
+    width: 220px;
+    height: 112px;
+    bottom: 409px;
+}
+
+.wax::before {
+    content: '';
+    background-image: url(../../images/product/Line\ 5.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    /* left: 349px; */
+    /* top: 80px; */
+    right: 274px;
+    width: 220px;
+    height: 112px;
+    bottom: 409px;
+}
+
+.vitamins::before {
+    content: '';
+    background-image: url(../../images/product/Line\ 6.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    /* left: 349px; */
+    top: 427px;
+    right: 366px;
+    width: 190px;
+    height: 229px;
+    bottom: 208px;
+}
+
+
+
+
+.product__link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 48px;
+}
+
+.product__item {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    align-items: center;
+    position: relative;
+}
+
+.product__box {
+    border: 2px solid #0360D9;
+    border-radius: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 19px 55px 20px 44px; */
+    width: 378px;
+    height: 244px;
+}
+
+.product__imgs-img {
+    margin-bottom: 130px;
+}
+
+
+.product__box-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* width: 424px; */
+    /* height: 408px; */
+}
+
+
+
+.product__imgs {}
+
+.product__text {
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 43px;
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+}
+
+.button__product {}
+
+.buttoms__product {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+    color: #0360D9;
+    padding: 22px 57px 22px 60px;
+    background: transparent;
+    border: 1px solid #0360D9;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.buttoms__product:hover {
+    background: #0360D9;
+    color: #fff;
+}
+
+.plants {}
+
+.lorex {}
+
+
+
+@media (max-width: 1435px) {
+
+    .aloy::before,
+    .bacteria::before,
+    .plants::before,
+    .lorem::before,
+    .wax::before,
+    .wax::before,
+    .vitamins::before {
+        display: none;
+    }
+}
+
+@media (max-width: 1233px) {
+    .product__link {
+        flex-wrap: wrap;
+    }
+
+    .lorex {
+        order: 1;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 807px) {
+    .product__link {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .product__imgs-img {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .plants {
+        margin-bottom: 20px;
+    }
+
+    .product__box {
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .product__box {
+        width: 259px;
+    }
+
+    .buttoms__product {
+        font-size: 18px;
+    }
+}

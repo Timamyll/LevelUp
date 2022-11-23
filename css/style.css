@@ -2,6 +2,10 @@
 @import url(./modules/levelup.css);
 @import url(./modules/rezult.css);
 @import url(./modules/character.css);
+@import url(./modules/product.css);
+@import url(./modules/slider.css);
+
+
 
 * {
     padding: 0;
